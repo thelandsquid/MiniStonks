@@ -1,4 +1,28 @@
-.App {
-  text-align: center;
-  background-color:#490452;
+.App{
+  background-color:var(--bg-color);
+}
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Josefin Sans', sans-serif;
+  --header-size:18px;
+  --details-size:16px;
+  --header-weight:800;
+}
+:root {
+  --primary-color: #A97722;
+  --secondary-color: #C3A064;
+  --bg-color: #EADDC8;
+  --nav-color: #DDC9A7;
+  --heading-color: #292922;
+  --widget-shadow:#000;
+}
+[data-theme="dark"] {
+  --primary-color: #C3A064;
+  --secondary-color: #DDC9A7;
+  --bg-color: #4C360F;
+  --nav-color: #33240A;
+  --heading-color: #A97722;
+  --widget-shadow:#EADDC8;
 }
