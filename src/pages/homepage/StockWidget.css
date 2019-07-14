@@ -18,6 +18,15 @@
     transition: box-shadow 300ms ease, transform 300ms ease;
     box-shadow: 1px 1px 2px var(--widget-shadow);
 }
+.widget hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:var(--secondary-color);
+    height: 2px;
+    margin:2px;
+  }
 .widget:hover {
     transform: translateY(-2px);
     box-shadow: 0px 5px 20px 3px var(--widget-shadow);
@@ -25,7 +34,7 @@
 .widget p{
     margin:0px;
 }
-.titular_info{
+.company_name{
     font-weight: var(--header-weight);
     font-size: var(--header-size);
     margin-bottom: 10px;

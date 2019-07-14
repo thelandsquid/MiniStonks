@@ -93,9 +93,8 @@ class StockWidget extends React.Component {
     render() {
         return (
             <div className="widget">
-                <div className="titular_info">
-                    <p className="company_name">{this.state.company_name}</p>
-                </div>
+                <p className="company_name">{this.state.company_name}</p>
+                <hr></hr>
                 <div className="info">
                     <div>{this.state.current_price} USD</div>
                     <div className="daily_performance">
